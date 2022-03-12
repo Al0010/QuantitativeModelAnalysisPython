@@ -41,6 +41,7 @@ You can copy and paste the code into your Virtual Studio Code to test the script
 - pip3 install matplotlib.pyplot
 - pip3 install mplfinance
 - pip3 install seaborn
+- pip3 install openpyxl
 
 # Libraries to import 
 - import pandas as pd
@@ -50,3 +51,6 @@ You can copy and paste the code into your Virtual Studio Code to test the script
 - import matplotlib.pyplot as plt
 - import mplfinance as mpf
 - import seaborn as sns
+- from openpyxl import Workbook, load_workbook
+- from openpyxl.utils import get_column_letter
+- from openpyxl.styles import Font
