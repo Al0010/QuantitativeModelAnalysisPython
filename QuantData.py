@@ -5,6 +5,9 @@ import math
 import matplotlib.pyplot as plt
 import mplfinance as mpf
 import seaborn as sns
+from openpyxl import Workbook, load_workbook
+from openpyxl.utils import get_column_letter
+from openpyxl.styles import Font
 
 pd.set_option('display.max_rows',10000,'display.max_columns',10000)
 
@@ -185,10 +188,6 @@ print(dev_tilray)
 print(dev_sundial)
 print(dev_bark)
 print(dev_alico)
-
-from openpyxl import Workbook, load_workbook
-from openpyxl.utils import get_column_letter
-from openpyxl.styles import Font
 
 data = {
 	"Agro": {
