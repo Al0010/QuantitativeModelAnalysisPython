@@ -33,8 +33,6 @@ end = dt.datetime.now()
 
 # Setting index
 corn = "ZC=F"
-#oil = "CL=F"
-#gas = "NG=F"
 
 # Setting ticker 
 agro = "AGRO"
