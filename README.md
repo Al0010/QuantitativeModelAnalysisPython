@@ -22,6 +22,8 @@ Through this script:
 In this example, it is used to search for the most volatile asset that is least correlated to the reference index. 
 The basket of stocks concerns assets with a core business in the commodities sector. An oil future is used as an index.
 
+![HeatmapTest](https://user-images.githubusercontent.com/100917872/158033758-7f8bcf6f-7352-42f8-8ede-7ff8f2b4d281.png)
+
 Version: Python V 3.10.2
 
 # How to run this script 
